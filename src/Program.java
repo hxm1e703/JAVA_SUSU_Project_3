@@ -1,5 +1,7 @@
-class Program {
+public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        Route mainRoute = new Route(100);
+        System.out.println(mainRoute.getRoot());
+        mainRoute.changeRoot();
     }
 }
