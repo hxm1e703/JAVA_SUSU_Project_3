@@ -20,4 +20,14 @@ public class Vehicle {
         this.rashod = rashod;
         this.probeg = probeg;
     }
+
+    protected void getFuelConsumption() {
+        this.rashod = 10.0;
+    }
+    //GETTERS
+    protected double getRashod() { return this.rashod; }
+    protected double getOilStatus() { return this.oilStatus; }
+    protected double getProbeg() { return this.probeg; }
+    protected String getNumber() { return this.number; }
+
 }

@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Route {
     private double lengthKillometres;
     private Scanner scanner = new Scanner(System.in);
+    
 
     public Route() {
         lengthKillometres = 1.0;
